@@ -1,0 +1,3 @@
+[submodule "binaries/data/mods/0bc"]
+	path = binaries/data/mods/0bc
+	url = https://github.com/faerietree/0bc.git
