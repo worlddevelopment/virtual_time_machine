@@ -9,11 +9,15 @@ Anti-war 0AD\* fork\*\*, rewrite\*\*\* for simplicity, performance and unlimited
 
 \*\*\* *Many 0BC modules are either completely rewritten or new.*
 
+
+<img src="https://github.com/faerietree/0bc/blob/master/0bc_logo.png" alt="" />
+
 Game Engine Clarification
 ---
 * 0 B.C. Time Machine (game) is modular. Few modules are based on 0 A.D. (clearly denoted as such).
 * 0 B.C.'s engine forked from pyrogenesis. The engine has partly been rewritten, some modules are added. The long term development unrelates 0BC.pyrogenesis from 0AD.pyrogenesis and approaches Blender's simulation mode in completely new hybrid engine, aimed at combining Unreal Engine's and pyrogenesis's advantages.
 * 0 B.C.'s scenario editor is an independent development and unrelated to 0 A.D..
+
 
 
 
