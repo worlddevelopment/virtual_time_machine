@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>[Status] Collection of Functionality Ideas</title>
+	</head>
+	<body>
+
+		<div id="functionality_ideas">
+Discuss it there: http://wildfiregames.com/forum/index.php?/topic/18399-status-collection-of-functionality-ideas/
+
+
+<p><u>Legend</u>:  <span style="color:#800000;">JavaScript</span> . <strong>JavaScript&amp;C++</strong>/uncertain <span style="color:#000080;"><strong>C++</strong></span> <span style="color:#2f4f4f;">The darker the color the more mature</span> <span style="color:#a9a9a9;"><strong>Low priority</strong></span><span style="color:#8b4513;"><strike>C</strike></span><span style="color:#000000;"><strike>o</strike></span><span style="color:#000080;"><strike>l</strike></span><span style="color:#8b4513;"><strike>o</strike></span><span style="color:#000080;"><strike>u</strike></span><span style="color:#800000;"><strike>r</strike></span> =&gt; solved + <span style="color:#006400;">(references/credits/working on it)</span><span style="color:#800000;">&lt;-- comment</span>
+<p></p>
+<p>See also: <a target="_blank" href="http://trac.wildfiregames.com/wiki/GameplayFeatureStatus" rel="external nofollow">Gameplay Feature Status (trac)</a>
+</p>
+
+<ul>
+	<li><strong><span style="color:#8b4513;">HybridAI</span></strong> (purely additivie ontop of <em>wraitii's + mimo's + agentx's Aegis+Petra+HannibalAI</em>
+ efforts, introduces first person view, subdueing other civs and to
+allow for civil wars or rebellion, among others, see below), <span style="color:#006400;">(agentx, Radagast)</span>
+	</li>
+
+	<li>
+		<strike><span style="color:#a52a2a;"><strong>Campaigning (Triggers)</strong></span>,</strike> [<a target="_blank" href="http://trac.wildfiregames.com/attachment/ticket/52/" rel="external nofollow">ticket+tutorial</a>] <span style="color:#006400;">(Spahbod, Sander, leper)</span> [execute javascript on any possible event!]<br>(for
+ building a storyline, this trigger needs to allow being registered
+within AIs/Players too. e.g. if you reach this fjord/bay, then this
+should trigger/dispatch a message to an AI to rais e alarm. Just as an
+example.).
+	</li>
+
+	<li>
+		<strong>Collosseum</strong> (gladiators, battle reenactments),
+	</li>
+
+	<li>
+		<span style="color:#000080;">Mod manager  -&gt;<strong> Mod Downloader</strong> <span style="color:#006400;">(Radagast)</span> +<strong> <strike>Mod Configurator</strike></strong></span> <span style="color:#006400;">(Itms, leper, Radagast)</span>,
+	</li>
+
+	<li>
+		<strong>Supply lines</strong>  (<span style="color:#000080;"><span style="color:#006400;">Niektb, Agentx, Radagast</span></span>),
+	</li>
+
+	<li>
+		<span style="color:#000080;"><strong>Transformation Component</strong></span>
+		<ul>
+			<li><span style="color:#8b4513;"><strong>Capturing</strong></span>
+ (slaves, a texture/actor selection change, can also change the model
+once captured, though continuing the old activity when captured will
+make trouble, stop instead, keep stats of old player if possible),   <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+			</li>
+			<li>Surrender system <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+			</li>
+			<li><strike><strong><span style="color:#800000;">Conversion</span></strong></strike> (e.g. converting priest) [<a target="_blank" href="https://github.com/0ADMods/ConvertUnit" rel="external nofollow">repository</a>],   <span style="color:#000080;"><span style="color:#006400;">(Idanwin, Radagast)</span></span>
+			</li>
+			<li><strong>Un-/Packing</strong> entities, 
+			</li>
+		</ul>
+	</li>
+	
+	<li>
+		<strong>Coralling</strong>/<strong>herding</strong> [<a target="_blank" href="http://trac.wildfiregames.com/ticket/1907" rel="external nofollow">ticket</a>] (see also entity on entity for garrisoning as prop),  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span><br><br>
+	</li>
+
+	<li>
+		<span style="color:#8b4513;"><strong>Mercenary system</strong></span> ,
+	</li>
+	
+	<li>
+		<span style="color:#a52a2a;"><strong><span style="color:#000080;"><strong>Seasons</strong></span></strong></span> (Winter, Spring, Summer, Autumn),   <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span></li><li><span style="color:#000080;"><strong>Night/day</strong></span> cycles (Visual),  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Time</strong></span> (comes with Hybrid AI),  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		<strong>Aging units</strong>,  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		<strong>Moving from ship to ship</strong> (jumping without animation),  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		<strong>Battle on ship</strong>,
+	</li>
+	<li>
+		<strong>Ship</strong>s<strong> ramming</strong> each other causes damage,
+	</li>
+	
+	<li>
+		<span style="color:#696969;"><strong>Weather</strong></span>
+ (especially crucial in naval battles and in winter as your siege
+structures might get stuck in the snow while crossing the mountains,
+particles as to newest consense.<em> Also additional visual terrain layer for flooding + heaps of snow.</em>), <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		<strong>Walkable Entities</strong>  (optional: make Pathfinder find path over entities.)
+		<ul>
+			<li>
+				<strong>Bridges </strong>
+			</li>
+			<li>
+				<strong>Walkable walls</strong> (dynamic position).<span style="font-size:10px;"> (if the 1x1 pathfinder finds its way, where is Philip, we need this guy back in 0AD)</span>.
+			</li>
+		</ul>
+	</li>
+
+	<li>
+		<strike><strong>Construct</strong>ion of <strong>eye-candy objects</strong></strike> (e.g. fences, trees, bridges ...) [<a target="_blank" href="https://github.com/0ADMods/Buildableeyecandy" rel="external nofollow">repository</a>],  <span style="color:#006400;">(MuteLovestone)</span>
+	</li>
+	
+	<li>
+		<span style="color:#000080;"><strong>Animal reproduction</strong></span> (objects reproducing itself, at first simply following e.g. fibonacci),
+	</li>
+	
+	<li>
+		<strike><span style="color:#000080;"><strong><a target="_blank" href="http://www.wildfiregames.com/forum/index.php?showtopic=18745" rel="external nofollow">Entity on entity</a></strong></span></strike> e.g. unit on wall or tree but static. [<a target="_blank" href="http://www.wildfiregames.com/forum/index.php?showtopic=18745" rel="external nofollow">1</a>][<a target="_blank" href="http://trac.wildfiregames.com/changeset/15246/ps" rel="external nofollow">commit</a>],  <span style="color:#000080;"><span style="color:#006400;">(Sanderd17)</span></span>
+		<ul>
+			<li>
+				<strike><span style="color:#8b4513;"><strong>Units on walls </strong></span>(as props with </strike>static position, but rotation flexible, i.e. turret)<span style="color:#000080;"><span style="color:#006400;"> [<a target="_blank" href="http://trac.wildfiregames.com/changeset/15246/ps" rel="external nofollow">commit</a> <a target="_blank" href="http://trac.wildfiregames.com/changeset/15250/ps" rel="external nofollow">2</a>]] (Sanderd17)</span></span>
+			</li>
+			<li>
+				<span style="color:#8b4513;"><strong>Visualize garrisoned units</strong></span> as Props /turrets (allowing to shoot from a tower?).<br>
+			</li>
+		</ul>
+	</li>
+	
+	<li>
+		<strong>Special units</strong>, like treasure guards or standard bearers whose standard may be captured by enemies,
+	</li>
+	
+	<li>
+		<strike><strong>Unit variation</strong></strike> <span style="color:#006400;">(Enrique, Mythos_Ruler)</span>,
+	</li>
+	
+	<li>
+		<strike>Minimal<strong> <span style="color:#000080;">unit scale/size variation</span></strong></strike> (not easy to do due to normals creating bright spots),   <span style="color:#000080;"><span style="color:#006400;">(Sanderd17)</span></span>
+	</li>
+	
+	<li>
+		<strong>Children</strong> (<strong>growing entities</strong> with time, has to be logarithm or at least saturating to prevent ever lasting growing - related to unit scale/size variation),
+	</li>
+	
+	<li>
+		<span style="color:#808080;"><strong>School/teaching</strong></span>,
+	</li>
+	
+	<li>
+		<span style="color:#000080;"><strong>Uphill</strong></span> movement deccelerates, <span style="color:#000080;"><strong>downhill</strong></span> makes entities accelerate,  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span><br>
+	</li>
+	
+	<li>
+		Introduction of <strong>Moral</strong> attribute,
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Loyalty</strong></span> attribute (towards mayor/government/chieftain),
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Sympathy</strong></span> attribute (towards elite units),
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Constitution/Stamina</strong></span> attribute,
+	</li>
+	
+	<li>
+		<strong>Cavalry rework</strong> to allow for more realism: moral effect, no deep penetration into enemy lines,
+	</li>
+	
+	<li>
+		<strong>Changing of weapons</strong>,
+	</li>
+	
+	<li>
+		<strong>Two-handers</strong> Automatically put the shield into the inventory.
+	</li>
+	
+	<li>
+		<strong>Two weapons at a time</strong>. More choices. Unit chooses what is available.
+	</li>
+	
+	<li>
+		<strong>Limited ammunition</strong>,
+	</li>
+	
+	<li>
+		<strong>Collecting of weapons/objects</strong> (inventory, related to entity on entity and prop system),
+	</li>
+	
+	<li>
+		Using (any) <strong>objects as ammunition</strong>, e.g. allow slingers to collect stones from the ground, arrows from the battlefields, put it<strong> in the ox cart </strong>and send it somewhere to <strong>unload</strong> it ...<br>
+	</li>
+	
+	<li>
+		<span style="color:#8b4513;"><strong>Rework armour system</strong></span>
+		<ul>
+			<li>
+				More soft counters, less hard counters <span style="color:#000080;"><span style="color:#006400;">(Mythos_Ruler, Alpha123, Scythetwirler)</span></span>.
+			</li>
+			<li>
+				More <strong>friction</strong> between units/armies <strong>in battle</strong>,
+			</li>
+			<li>
+				Units get wounded quickly once the armour is damaged or did not withstand the force of the enemy thrust.
+			</li>
+		</ul>
+	</li>
+
+	<li>
+		<span style="color:#8b4513;"><strong>Commander system</strong></span> (goes with the Hybrid semi-self-learning AI),
+	</li>
+	
+	<li>
+		<span style="color:#a9a9a9;"><strong>Goods/resources represented as objects</strong> </span>(low priority), Extend <span style="color:#808080;"><strong>resource representation</strong></span>. =&gt; Real objects (2D plane or triangle / pyramid or cube mesh).
+	</li>
+	
+	<li>
+		(units have to <strong>carry resources/goods to the foundations</strong> to allow for construction work to proceed).
+	</li>
+
+	<li>
+		<strong>Units will need resources (food, water) to live</strong>. The more units, the more difficult to feed, making the population cap superfluous. The same is valid for animals.
+	</li>
+
+	<li>
+		Reproduction but <span style="color:#a9a9a9;"><strong>nothing to eat means famines</strong></span> and less births (can't be protected because parents have to search the whole day for food).
+	</li>
+	
+	<li>
+		<span style="color:#808080;"><strong>Erosion of entities</strong>. =&gt; Houses that are closer less damage but units move slower especially if in a formation.</span>
+	</li>
+	
+	<li>
+		<strong>Allow units to modify Height map</strong>.
+ e.g. flattening out impassable terrain, digging a well/trap. You may
+build tunnels if you are besieged and have run out of food.
+	</li>
+	
+	<li>
+		<strong>Paths, roads, and streets</strong> EITHER
+		<ul>
+			<li>
+				<strong>grow</strong> + <strong>only visual</strong> if units pass this way often OR if the mayor/AI decides to
+			</li>
+			<li>
+				<span style="color:#800000;"><strong>construct roads</strong></span>
+ like walls. (visual effect, functionality troublesome + is not possible
+ with new uniform pathfinder, use vehicles instead or figure out
+workaround like texture detection or attach invisible vehicle which can
+only travel on roads (vehicle speed depending on road entity health) to
+the road) <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+			</li>
+		</ul>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Aquaduct water transportation system</strong></span><span style="color:#008000;"><strong>.</strong></span><br>
+	</li>
+	
+	<li>
+		ease <strong>History visualisation</strong> (like battle reenactment) and simulation.
+	</li>
+	
+	<li>
+		<strike>Make <strong>props attackable</strong>/destroyable</strike>. [<a target="_blank" href="http://trac.wildfiregames.com/changeset/15246/ps" rel="external nofollow">commit</a>] e.g. 1st destroy all props (e.g. researched building-extension towers) then the building. (related to: <a target="_blank" href="http://trac.wildfiregames.com/ticket/2243" rel="external nofollow">Allow actor changes on technology research</a>.). <span style="color:#000080;"><span style="color:#006400;">(Sanderd17)</span></span>
+	</li>
+	
+	<li>
+		Or the other way round: if the <strong>building gets destroyed then the props lay around</strong>. (related to inventory, non-endless ammunition, ..)
+	</li>
+	
+	<li>
+		<span style="color:#808080;"><strong>Indicate damaged buildings</strong></span> using darker shaders and attaching particles/smoke props.
+	</li>
+	
+	<li>
+		<strong>Short pathfinder</strong>:<strike> in a formation only the formation leader executes the range check and should</strike>
+	</li>
+
+	<li>
+		<strike>change
+ formation according to situation, e.g. if there is a narrow path only,
+then adapt from a wide to a narrow closely packed formation to pass the
+bottleneck.</strike>
+	</li>
+
+	<li>
+		<strike>Formation mod: Units should rotate and be moved/distorted relative to each other on impact with another formation.</strike> (use <a target="_blank" href="https://www.youtube.com/watch?v=tpjjz3TOKoQ&amp;t=1min44s" rel="external nofollow">crowd algorithm</a>)
+	</li>
+	
+	<li>
+		Allow<strong> <span style="color:#808080;">custom formation shapes</span></strong> at runtime (e.g. define your own formation shapes/rules on the fly ). <span style="color:#000080;"><span style="color:#006400;">(Sanderd17)</span></span>
+	</li>
+	
+	<li>
+		Units attacking another army/formation and being battered with arrows should <strong><span style="color:#8b4513;">slow down significantly</span></strong>.  <span style="color:#000080;"><span style="color:#006400;">(Radagast)</span></span>
+	</li>
+	
+	<li>
+		Other than this slowing down effect, the Archers' long range doesn't do a lot of damage. So <span style="color:#8b4513;"><strong>calculate long-range damage depending on distance</strong></span>.<br>
+	</li>
+	
+	<li>
+		Units should have the possiblity to <strong>dissolve obstructions</strong>. i.e. enter through a building's doorstep by removing the interior obstruction<span style="font-size:10px;"> (perhaps make door a prop and add hitpoints on a per entity base. --&gt; C++ patch entity on entity.)</span>.
+	</li>
+	
+	<li>
+		Sun<em>/Planets</em>
+	</li>
+	
+	<li>
+		<strong>Moon</strong>
+	</li>
+	
+	<li>
+		<strong><span style="color:#8b4513;">Tidal visual system</span></strong> (which should be tackled when we test/work on different water heights).  <span style="color:#000080;"><span style="color:#006400;">(FeXoR, Sanderd17, Radagast)</span></span>
+	</li>
+	
+	<li>
+		<a target="_blank" href="http://www.wildfiregames.com/forum/index.php?showtopic=18618&amp;p=291056" rel="external nofollow"><span style="color:#800000;"><strong>Morale boost units</strong></span></a>.
+ e.g. Druid, Trumpeter, ... (either a permanent aura, or a triggered
+aura, or a attack type which directs at single units as we don't have
+spreaded-/area attack type).
+	</li>
+	
+	<li>
+		<strong>Resource conversion</strong> - like an alchemy type thing <em>(Tech + Alchemist?)</em> <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- not to confuse with unit conversion which should be called entity ownership change.</span></span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Rework Looting</strong></span> - make type of loot &amp; its look depend on more parameters,  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		Rework schemas - Rework schemas to allow for better modifications <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- as late as possible as it will break compatibility with 0AD</span>.</span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span><br></li><li><strong>Element Attacks</strong> - (Fantasy/map dependent)<span style="font-size:10px;">  <span style="color:#b22222;">&lt;-- temperature attack should be one of those  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span></span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Fire/Cold Attack </strong></span>- (non Fantasy)  <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- should be <strong>temperature attack</strong>. needs entity's living temperature range being defined in XML schema.  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone, Veridagorin)</span></span></span></span>
+	</li>
+	
+	<li>
+		<strong>Status Attacks</strong> (<strong>temporary damage</strong>) - IE: poision, bleeding and a few others  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Death Attacks</strong></span> <span style="color:#800000;">(<strong>permanent damage</strong>)</span> - attacks that happen on death  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Unit Abilities + Talents</strong></span> (Talent is nearly fixed per unit-birth, <strong><span style="color:#d3d3d3;">Skill</span></strong> can be improved)  <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- could/should be done via tech + experience =&gt; skills increase  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span></span></span>
+	</li>
+	
+	<li>
+		Tech: Units can learn (applied only to that unit) <span style="color:#b22222;"><span style="font-size:10px;"> &lt;-- why tech?  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span></span></span>
+	</li>
+	
+	<li>
+		Rework<span style="color:#800000;"><strong> Extended tech</strong></span> (allow to chose any tech-state on a per unit-type base )  <span style="color:#000080;"><span style="color:#006400;">(Radagast, MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#696969;"><strong>Rework combat</strong></span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<strong><span style="color:#a52a2a;">Separate tech into categories</span></strong>-combat/unit/ability/resource/work/extra/attack bonuses <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- keep it flexible and dynamic.</span></span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#a9a9a9;">Rework units</span> <span style="color:#b22222;"><span style="font-size:10px;">&lt;-- in what way? Philip already reworked entities recently. A unit is a special type of entity. Just like building.</span></span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span><br>
+	</li>
+	
+	<li>
+		<span style="color:#808080;"><strong>Redo how buildings are constructed</strong></span>,  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#a9a9a9;">Rework templates</span>   <span style="color:#b22222;"><span style="font-size:10px;"> &lt;-- As late as possible if otherwise no 0AD synch possible.  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span></span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Critical Hits </strong> <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span></span></li><li><strong><span style="color:#8b4513;">Weak spots</span></strong>  <span style="color:#b22222;"><span style="font-size:10px;">&lt;--
+ addition to armour? by making it more locally defined? or general
+weakness, should go with ability + skill + talents system (perhaps like
+NeverWinterNights with skillpoints which can be increased or decreased).</span></span>  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Extra Phases</strong></span>  mods, (best as dynamic as possible)  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+
+	<li>
+		Revolts/Civil war (see above listing).  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+
+	<li>
+		<strike><strong>Trainable Animals</strong></strike>  <span style="color:#006400;">(MuteLovestone</span>, <a target="_blank" href="https://github.com/0ADMods/AnimalTraining" rel="external nofollow">early version available</a>)
+	</li>
+	
+	<li>
+		<strong>Animals equal to units</strong>. Break into categories just like units: support animal (healer, female, dropsite) + fighting  (complete, 1/2)
+	</li>
+	
+	<li>
+		Animals / <strong>Entities as companions</strong> (best not restrict to animals to allow for adventurer system)  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong><strike>Water Resource</strike></strong></span> <span style="color:#006400;">(MuteLovestone</span>, <a target="_blank" href="https://github.com/0ADMods/base-water-mod" rel="external nofollow">get it here</a>),<br>
+	</li>
+	
+	<li>
+		<strong>Well harvesting</strong>,  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#800000;"><strong>Obsidian Resource</strong></span>,  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<span style="color:#000080;"><strong>River/Sea/Lake harvesting</strong></span>,  <span style="color:#000080;"><span style="color:#006400;">(MuteLovestone)</span></span>
+	</li>
+	
+	<li>
+		<strong>Extra Resources</strong> (on request)
+	</li>
+	
+	<li>
+		GUI: <span style="color:#800080;"><strong>Tabs for categories of constructable buildings</strong></span> (when selecting a builder unit e.g.).
+	</li>
+	
+	<li>
+		GUI: <strike><em><strong>Statistics charts</strong> </em>(workaround </strike>or C++ component) [<a target="_blank" href="https://wildfiregames.com/forum/www.wildfiregames.com/forum/index.php?showtopic=18647" rel="external nofollow">1</a>]. <span style="color:#000080;"><span style="color:#006400;">(agentx)</span></span>
+	</li>
+
+</ul>
+
+<p>Long list, but I like it. Did we forget anything?<br>Good day! <img src="smiley_hi.gif" alt=""/>
+<br>
+<br>
+<br>
+Still a lot of room for your ideas!<br>
+Feel free to propose in the thread..
+</p>
+
+		</div>
+
+
+
+		<div>
+
+<p>
+	<blockquote>Quote: <p>prisoner
+ system that makes it possible for an attacked unit to have a sort of
+surrendering animation in the middle of the fight (which I think was
+tied up to the amount of HP / morale that remains for that unit</p></blockquote>
+Thanks,
+ that's what we plan while we take the distance into account. So if
+there are many fit enemy units around a single hero, then even that one
+will get captured if the encirclement is close enough unless the loyalty
+/ sympathy is high / low to the friends / capturers.
+</p>
+<p>
+Females as they have less health-points will get captured easily even
+from a distance. The weaker a unit the earlier (closer distance) it will
+ surrender, becoming a neutral unit that follows the unit that captured.
+ This unit now only can capture more units for as long as the own health
+ is higher than the altogether health of all captives.
+</p>
+<p>
+Then the unit might go home, taking the captives away.</p><p>
+This way, if a well aimed javelin hurts the capturer that has already
+many captives, then probably one of them can break out, the fittest in
+this case.
+</p>
+<p>
+The cool thing is, in 0 A.D. this is not limited to soldiers .. you can
+even catch a fox or crododile like that. Beware that crododiles attack
+your units, if you should lose control over one of them while having
+them as a captive nearby.
+</p>
+<p>
+Once we have the possibility to place eye-candy objects (like fences) then we can fence the captives.
+</p>
+<p>
+For animals a corral was planned and there is a patch around that makes
+animals be tied to the corrals. It's even possible to have them inside
+the building. Though I like the fence thing better as then we don't have
+ to prop extra animals to the stable object. And they would still be
+attackable/freeable. It's more realistic than first to have to destroy
+the building down to 25% .. especially if you just had to jump over the
+fence to get the horse out.
+<img src="Functionality_Ideas_and_their_Status_files/default_smile.png" alt=":)">
+</p>
+<p>
+Good you mention the morale. We need it for the military anyway, so way
+not adding this too for every unit. If a formation has overrun other
+units, then moral would increase and even if they meet a stronger unit
+then, they could hold out longer due to the initial morale being high
+while it's decreasing more and more as long as they have more losses
+than the enemy, lose ground or are heavily overpowered. We have
+flexibility here.
+</p>
+<p>
+As we already have to execute range check for picking attack targets in
+the battle, then we could even make units nearby to a loss more affected
+ than those far away. This could lead to a partly dissolving army if
+they encounter elite units at a certain part of the front.</p><p>
+Perhaps we should not even store morale at all having it at 50% instead
+and deriving the + and - through a calculation that takes all nearby
+factors into account. Later we can add that bad news from another army
+has influence into the formula depending on time, the news was received
+by the unit.
+</p>
+<p></p>
+<blockquote>Quote: <p>Maybe
+ we can have a sort of eye-candy family created whenever there is a
+certain number of houses present, and then, have each house spawn
+children who then grows up to become (free of cost villagers) - sort of
+the peasants of Stronghold.</p></blockquote>
+<p>
+Interesting! You sparked another idea, we could create an optional vasall system too.
+</p>
+<p>
+The free of cost is good idea. I think it would be cool to not allow
+instant units at all. The exception are the mercenaries. They are
+getting much more interesting this way too.
+</p>
+<p>
+Each map could have either infinite mercenaries available. Or we limit
+it to eye-candy mini-cultures that of course could also go extinct if
+too many mercenaries are drawn (it's possible they also send mercenaries
+ to other tribes, e.g. the AI, perhaps we should add a tech for allowing
+ to force the mini-cultures to not send mercenaries to other units. Of
+course the enemy will get a message and could use your takeover of the
+mini-civ as a reason for war.).
+</p>
+<p>
+The cost for the units would be the school and grow-up then. Also the
+food and water they consume will be pricy. They need leather too. Iron
+later once they become soldiers if they decide to apply for the posts
+that are written out of the mayor/government.
+</p>
+<p>
+So if you decide to recruit all you have in an emergency (raising alert
+the second time, e.g.), then you might well lose your teachers too.
+Could still send a general or other elite instead. Of course you don't
+have to send the teachers in yourself. We could add a button that
+decides if only teachers are teachers or all other elite units too.
+</p>
+<p>
+I wish to avoud having it all hard-coded, I like it if it's flexible.
+</p>
+<p>
+As we introduce time (somewhere I calculated 1 world-day will take 60
+minutes by default) we will have a quite realistic feeling. The flow of
+time can be increased. just like it is currently.
+</p>
+<p>
+Of course this open the problem of overreproduction, so this could lead
+to send your units abroad to populate an island or to conquer new
+territory. This might also trigger an AI to lead an preventive attack
+before the enemy gets too strong.
+</p>
+<p>
+Good you mention stronghold, I hope we will have a similar building-damage system soon.
+Time will tell us how to achieve it.
+</p>
+
+
+
+		</div>
+
+		<div>
+<blockquote>shieldwolf said: <p>Let
+ me add on the mercenaries  -  if a map will have infinite mercenaries,
+then in time, there should be a sort - of either an assimilation of
+cultures or total rebellion/ defeat of the culture who hired the
+mercenaries (something akin to what happened with the Late Western Roman
+ Empire).</p>
+</blockquote>
+Though we planned rebellion with the
+Hybrid AI, I did not think of this usecase!! glorious, colleague! That
+must go on our list.
+<p>
+The mercenary count will be examined taking their
+ loyalty to the tribe/player that hired them into account. So the
+formula will be something like: mercenary_rebellion_probability_0..100 =  1 -  (<strong>moral</strong>  + <strong>loyalty_towards_those_who_hired_them) / (morale.max + loyalty.max)</strong>
+</p>
+<p>
+where
+</p>
+<p>
+<strong>moral</strong> is already affected by military success and health, so health must not go into the calculation explicitely.
+</p>
+<p>
+<strong>loyalty_towards_those_who_hired_them</strong>
+ is a property of each unit that comes with the Hybrid AI. (we should
+discuss if additionally each unit has
+sympathy_towards_other_tribes_or_players. The units already have plenty
+have plenty of sympathy values to store, i.e. for all elite unit and all
+ direct and indirect chiefs. We can't include every unit probably, but
+we can test if hardware can handle it to store sympathy of a peasant
+towards another peasant. would be cool indeed to add additional
+battlefield possibilities like, ha, I abandon this comrad and help this.
+ You see. Or I help this woman and I marry her if she feels the same. I
+think you get the idea. We could make this moddable so that forced
+marriage might be possible for other cultures.)</p><p><strong>they_will_be_loyal</strong>
+ is a factor, usually 100 . Might be lowered for mercenaries that are
+known to not be very reliable. could be read from the units XML-file as
+an optional property.
+</p>
+<p>
+Note: If we use floating point, then each
+factor has to be divided by 100. Then the probability would be between
+0..1 just like it's formally correct as a probability is always between 0
+ and 1. (not that you accuse me I teach wrong things, what I probably do
+ anyway.)
+</p>
+<blockquote>Quote: <p>On
+ overreproduction, may I suggest though that the children spawning be
+tied up to a certain number of houses so that if like, 20 houses are
+reached with 20 children, no more children is spawned. Something like
+that.</p></blockquote>
+<p>Are you sure it's tied to houses in nature?
+hm.. Perhaps it is. So probably each house a number maximum people and
+others (children grown up) then have to live on the streets/ inthe woods
+ .. lowering their moral and increasing their will to become hired as
+mercenary of other tribes. Or join the military if any new soldiers are
+wanted (what might not be the case. The moral will sink and sink ... and
+ they will start being like Robin Hood, finally even changing clothes to
+ become citizens of the woods, split by their original tribe.). .
+interesting.
+</p>
+<p>
+Or simply a cap like:
+</p>
+<p>
+#<strong>citizen_maximum</strong> = #<strong>houses</strong> * #<strong>people_per_house</strong>
+</p>
+<p>
+Like it currently already is. So no work to be done here. <img src="Functionality_Ideas_and_their_Status_files/default_biggrin.png" alt=":D">
+</p>
+<p>
+<strong>Edit:</strong>
+</p>
+<blockquote>Quote
+		<p>(something akin to what happened with the Late Western Roman Empire)</p>
+</blockquote>
+If I am remembered of this tragedy of failing commanders then I get quite
+upset. Really throughout history things are happening that are difficult
+ to grasp from our informed position:
+ <blockquote>
+ 	 <ul>
+ 	 	 <li>
+ 	 	 	 They said: <em>Celts and Avar, only the fittest are allowed to take shelter in the Roman Empire. All elderly are left to the huns.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Emperor: <em>You are allowed to settle here.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Local praefect: <em>You are no longer allowed to settle here.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Emperor: <em>You want to settle? Well, you are not allowed to settle anywhere, you can cross the danube if you like the huns.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Awar: <em>How do come to say that, then we take the land we want. Try to stop us.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Emperor: <em>Call the armies. I lead one myself.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 General victorious against a small cohort of Avar.
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Emperor:  <em>You see, it's easy.</em>
+ 	 	 </li>
+ 	 	 <li>
+ 	 	 	 Another
+ General victorious in France/Germany against celts. They try to help
+the others, because there are plenty of Avars. They have a long way.
+		 </li>
+		 <li>
+		 	 Emperor: <em>Oh, all are winning. Well, it's easy. I will show.</em> To General: <em>Is my army ready?</em>
+		 </li>
+		 <li>
+		 	 General:  <em>We better wait for the others.</em>
+		 </li>
+		 <li>
+		 	 Emperor: <em>You maybe. Me certainly not.</em>
+		 </li>
+		 <li>
+		 	 General: <em>Awk... Okay.</em>
+		 </li>
+		 <li>
+		 	 Emperor and General both dead after they underestimated the number of gothic tribespeople.
+		 </li>
+		 <li>
+		 	 Ha, nothing else than free way to destroy everything for the now certainly angry tribes.
+		 </li>
+	 </ul>
+ </blockquote>
+ <p>
+ And the bad thing is, those stories never end. Just recently another example came up in real world.
+ </p>
+ <p>
+ Okay. Back to topic. That re-sparked another idea I almost forgot:
+ </p>
+ <p>
+ </p>
+ <ul>
+ 	 <li>
+ 	 	 Technological
+ advances will spread. So neighbouring celtic and other tribes will gain
+ knowledge if a high-tech country is nearby. Even far-away will have
+influence, so that it's at no time possible to have knights at one half
+of the world and spaceships on the other. (at least no majorities, local
+ ancient tribes are fine)
+ 	 </li>
+ </ul>
+ 
+<p></p>
+<p>
+Self-awareness of
+units: So if a unit is idle, well then I look there, the tavern for some
+ time, perhaps depending on the number of units nearby. If there are too
+ many, go elsewhere. Perhaps fishing.
+</p>
+<p>
+Should be random. Could be location oriented too.
+</p>
+<p>
+If an idle unit is nearby a lot of fish or a fisherman it might sit down
+ nearby under a tree, watching the fisherman - at least until it's dark.
+ Then all units go home and light is kindled.
+</p>
+<p>
+
+
+		</div>
+
+	</body>
+</html>
+
